@@ -96,6 +96,8 @@ Transactions hash will save to file `[timestamp].tx` under current folder.
 
 **Under my personal test, it's OK when count of address is not more than 1000.**
 
+**Don't change the OP_RETURN message, it will affect the transaction fee which will cause un-spendable UTXO**
+
 Send transactions to `1000` address will cost about `0.009` BSV, FYI.
 
 # Transactions made by this tool
