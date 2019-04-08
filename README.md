@@ -94,9 +94,14 @@ Transactions hash will save to file `[timestamp].tx` under current folder.
 - Put you own WIF and mnemonic in configuration file, run `coin-split.py` to split coin
 - Wait for the coin split transaction meet at least 1 confirmation, run `tx-maker.py` to create and send transactions 
 
+**Under my personal test, it's OK when count of address is not more than 1000.**
+
+Send transactions to `1000` address will cost about `0.009` BSV, FYI.
+
 # Transactions made by this tool
 
-[bitdb query](http://bit.ly/2U0zsPl)
+- [Count statistics](http://bit.ly/2U6B0Y9)
+- [Transaction list](http://bit.ly/2U3s716)
 
 # Donation
 
